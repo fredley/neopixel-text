@@ -1,0 +1,12 @@
+[Unit]
+Description=Pixel Webserver
+After=network.target
+
+[Service]
+User=root
+WorkingDirectory=/home/pi/neopixel
+ExecStart=uwsgi --ini uwsgi.ini
+Restart=always
+
+[Install]
+WantedBy=multi-user.target

@@ -1,0 +1,5 @@
+# Install these AS ROOT
+Flask==1.1.2
+Pillow==8.1.0
+uWSGI==2.0.19.1
+# Additional requirements you should already have installed: rpi_ws281x adafruit-circuitpython-neopixel
