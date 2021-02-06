@@ -1,7 +1,5 @@
 Simple text display on an 8x8 Neopixel compatible display, driven from a raspberry pi. I'm using an 8x8 array and a Raspberry Pi Zero W.
 
-The font I'm using is
-
 Setup:
 
 1. Run through the Neopixel setup at https://learn.adafruit.com/neopixels-on-raspberry-pi/python-usage to connect and install the neopixel libraries on the Pi.
